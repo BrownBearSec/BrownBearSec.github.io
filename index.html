@@ -14,9 +14,9 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        const host = window.location.hostname;
+        const path = window.location.pathname;
 
-        if (host === "map.alana.cafe") {
+        if (path === "/map") {
           // Redirect to Google Maps
           window.location.replace("https://maps.app.goo.gl/U7pkmD28skagRRJ8A");
         } else {

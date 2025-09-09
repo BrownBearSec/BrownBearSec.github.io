@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1MSTQ3EV3K"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-    
       gtag('config', 'G-1MSTQ3EV3K');
     </script>
 
-
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://docs.google.com/spreadsheets/d/1GWTUVIjjV-g_KkpAOb83xNnWlCRo2X1qg6cnLDt9Szs/edit?usp=sharing">
     <title>Redirecting...</title>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Check the referrer
+        if (document.referrer.includes("map.alana.cafe")) {
+          // Redirect to Google Maps
+          window.location.replace("https://maps.app.goo.gl/U7pkmD28skagRRJ8A");
+        } else {
+          // Default redirect to Google Sheets
+          window.location.replace("https://docs.google.com/spreadsheets/d/1GWTUVIjjV-g_KkpAOb83xNnWlCRo2X1qg6cnLDt9Szs/edit?usp=sharing");
+        }
+      });
+    </script>
 </head>
 <body>
-    <p>If you are not redirected, <a href="https://docs.google.com/spreadsheets/d/1GWTUVIjjV-g_KkpAOb83xNnWlCRo2X1qg6cnLDt9Szs/edit?usp=sharing">click here</a>.</p>
+    <p>If you are not redirected, 
+      <a href="https://docs.google.com/spreadsheets/d/1GWTUVIjjV-g_KkpAOb83xNnWlCRo2X1qg6cnLDt9Szs/edit?usp=sharing">click here</a>.
+    </p>
 </body>
 </html>

@@ -14,8 +14,9 @@
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        // Check the referrer
-        if (document.referrer.includes("map.alana.cafe")) {
+        const host = window.location.hostname;
+
+        if (host === "map.alana.cafe") {
           // Redirect to Google Maps
           window.location.replace("https://maps.app.goo.gl/U7pkmD28skagRRJ8A");
         } else {

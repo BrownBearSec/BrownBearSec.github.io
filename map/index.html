@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting to Google Maps…</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1MSTQ3EV3K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1MSTQ3EV3K');
+  </script>
+
+  <!-- Meta refresh as backup redirect -->
+  <meta http-equiv="refresh" content="0; url=https://maps.app.goo.gl/U7pkmD28skagRRJ8A">
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #fafafa;
+      color: #333;
+    }
+    .container {
+      text-align: center;
+      max-width: 500px;
+      padding: 1.5rem;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Redirecting you…</h1>
+    <p>You should be taken to Google Maps automatically.</p>
+    <p>If not, <a href="https://maps.app.goo.gl/U7pkmD28skagRRJ8A">click here to open the location</a>.</p>
+  </div>
+
+  <script>
+    // JS redirect to avoid back button loops
+    window.location.replace("https://maps.app.goo.gl/U7pkmD28skagRRJ8A");
+  </script>
+</body>
+</html>
